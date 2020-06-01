@@ -17,8 +17,6 @@ jobs:
 
           command: bundle exec jekyll build
 
-          command:  bundle exec jekyll build
-
       - run:
           name: notify build is finished
           command: echo "The build is finished!"
